@@ -43,9 +43,6 @@
     font-weight: bold;
 }
 
-.clickable-td {
-}
-
 td.clickable-td:hover, td.clickable-td:focus, td.clickable-td:focus:hover {
     background: #f9f9f9;
     cursor: pointer;
@@ -75,10 +72,12 @@ td.clickable-td:hover, td.clickable-td:focus, td.clickable-td:focus:hover {
 
 body {
   padding-top: 50px;
+  background-color: #000;
+  color: white;
 }
 
 a {
-    color: Maroon;
+    color: red;
 }
 
 a:hover, a:focus {
@@ -86,7 +85,7 @@ a:hover, a:focus {
 }
 
 .navbar {
-    background-color: #f9f9f9;
+    background-color: #3B3B3B;
 }
 
 .navbar-toggle {
@@ -402,7 +401,8 @@ body {
 /* Set the fixed height of the footer here */
 #footer {
   height: 70px;
-  background-color: #f9f9f9;
+  background-color: #3B3B3B;
+  color: white;
 }
 
 .footer-nav {
